@@ -1,0 +1,129 @@
+.git-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.git-container-top {
+  border-radius: 16px;
+  height: 270px;
+  margin-top: 54px;
+  padding: 30px;
+  background-color: #E6F7FF
+}
+
+.search-container h1 {
+  font-size: 1.5em;
+  color: #262626;
+  font-weight: bold;
+  margin: 45px 0 12px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  height: 40px;
+  width: 215px;
+  margin-bottom: 25px;
+}
+
+.search-input::placeholder {
+  color: #d3cccc;
+}
+
+.search-button {
+  height: 40px;
+  width: 160px;
+  color: #fff;
+}
+
+.git-card-result-content {
+  align-items: center;
+  border-radius: 16px;
+  background-color: #F5F5F5;
+  margin-top: 54px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.git-card-img {
+  margin: 44px 30px;
+  border-radius: 10px;
+}
+
+.git-card-img img {
+  min-height: 247px;
+  width: 247px;
+}
+
+.git-card-result {
+  flex-grow: 0.9;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.git-card-result h5 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #1890FF;
+}
+
+
+
+@media (min-width: 576px) {
+  .git-card-result-content {
+    width: auto;
+  }
+  .search-input {
+    width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .git-card-img {
+    margin: 44px 30px;
+    border-radius: 10px;
+  }
+  
+  .git-card-img img {
+    width: 247px;
+    min-height: 247px;
+  }
+}
+
+@media (min-width: 992px) {
+  .git-card-result {
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  .git-card-result-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .git-card-img img {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .git-card-result {
+    width: auto;
+  }
+}
